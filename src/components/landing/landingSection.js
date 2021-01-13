@@ -1,11 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const IndexPage = () => {
+const LandingSection = () => {
   return (
-    <>
-    </>
+
   )
 }
 
-export default IndexPage
+export default LandingSection
