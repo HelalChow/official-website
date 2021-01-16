@@ -25,21 +25,26 @@ const Navigation = () => {
 
   for (let navIndex = 0; navIndex < numOfSections; navIndex++){
     const navText = data.navText[navIndex]
+    {/*to= {`/${navText}`}*/}
     navItemsHTML.push(
         <CustomLink
-          to= {`/${navText}`}
-          className="mr-3 mt-3">{navText}
+          to= {`/`}
+          className="mr-3 mt-3"
+        >
+          {navText}
         </CustomLink>
     )
   }
 
   return (
     <>
+    {/*col 12 starts here*/}
       <Col lg={12} className="">
         <Navbar className="p-0" expand="lg">
         <Navbar.Brand className="mt-3">
         <CustomLink to="/#home">
           {data.logoText}
+          {/*<img className="m-0" src={require('../assets/headstart3.png')} alt="Chrono Group"/>*/}
         </CustomLink>
         </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -49,11 +54,8 @@ const Navigation = () => {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-
       </Col>
       {/*col 12 ends here*/}
-
-
     </>
   )
 }
