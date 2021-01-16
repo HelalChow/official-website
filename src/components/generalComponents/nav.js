@@ -3,7 +3,7 @@ import { Container, Col, Row, Nav, Navbar, Button } from "react-bootstrap"
 import styled from "styled-components"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { Link } from "gatsby"
-import data from "../assets/data"
+import data from "../../assets/data"
 
 const CustomLink = styled(AnchorLink)`
   boxShadow: none;

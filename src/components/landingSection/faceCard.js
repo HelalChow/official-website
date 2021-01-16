@@ -8,6 +8,7 @@ const CustomCard = styled(Card)`
   &:hover {
     transform: scale(.9);
   }
+  /* max-width:10rem; */
 `
 const BetterImage = styled(Card.Img)`
   max-width: 8rem;

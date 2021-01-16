@@ -6,7 +6,7 @@ import styled from "styled-components"
 import { Col, Row } from "react-bootstrap"
 import { Layout, Navigation, Jumbotron } from "../generalComponents"
 // ******** DEFAULT IMPORTS END ********
-import FaceCard from "./faceCard"
+import FaceCard from "./faceCard.js"
 
 
 
