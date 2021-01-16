@@ -6,17 +6,17 @@ import styled from "styled-components"
 import { Col, Row } from "react-bootstrap"
 import { Layout, Navigation, Jumbotron } from "../generalComponents"
 // ******** DEFAULT IMPORTS END ********
-import FaceCard from "./faceCard.js"
+import YearCard from "./yearCard.js"
 
 
 
 const OurPics = () => {
   const cardsHTML = []
-  const numOfCards = 3
+  const numOfCards = 4
 
   for(var cardIndex = 0; cardIndex < numOfCards; cardIndex++){
     cardsHTML.push(
-      <FaceCard
+      <YearCard
       />
     )
   }
@@ -24,10 +24,7 @@ const OurPics = () => {
   return (
     <>
       <Row>
-        {cardsHTML.slice(1)}
-      </Row>
-      <Row className="justify-content-center">
-        {cardsHTML[0]}
+        {cardsHTML}
       </Row>
     </>
   )
@@ -35,11 +32,10 @@ const OurPics = () => {
 
 
 
-const LandingSection = () => {
+const StrategySection = () => {
   return (
     <>
       <Layout>
-        <Navigation/>
         <Col lg={5} className="mt-5 d-flex align-items-center">
           <Jumbotron/>
         </Col>
@@ -51,4 +47,4 @@ const LandingSection = () => {
   )
 }
 
-export default LandingSection
+export default StrategySection
