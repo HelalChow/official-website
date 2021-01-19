@@ -55,15 +55,25 @@ const TimelineSection = () => {
         </Col>
         <Col lg={7} className="mt-5">
           <Chrono
-            items={items}
+            items={data.timeline}
             mode="VERTICAL_ALTERNATING"
             hideControls
             onScrollEnd
             cardHeight={100}
-            theme={{primary: "red", secondary: "blue", cardBgColor: "white", cardForeColor: "black" }}
+            theme={{primary: "#1681a8", secondary: "white", cardBgColor: "white", cardForeColor: "black" }}
             slideShow={true}
             slideItemDuration={100}
           >
+
+          <div>
+         <div style={{ width: "250px", height: "250px" }}>
+           <img
+             style={{ maxWidth: "100%", maxHeight: "100%" }}
+             alt="test"
+             src="https://cdn.tutsplus.com/net/uploads/2013/08/github-collab-retina-preview.gif"
+           />
+         </div>
+       </div>
           </Chrono>
         </Col>
       </Layout>

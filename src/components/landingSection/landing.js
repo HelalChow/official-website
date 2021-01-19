@@ -15,15 +15,21 @@ const OurPics = () => {
   const numOfCards = 3
 
   for(var cardIndex = 0; cardIndex < numOfCards; cardIndex++){
+    var member = data.teamMembers[cardIndex]
     cardsHTML.push(
       <FaceCard
+        name={member.name}
+        title={member.title}
+        company={member.company}
+        school={member.school}
+        image={member.image}
       />
     )
   }
 
   return (
     <>
-      <Row>
+      <Row className="">
         {cardsHTML.slice(1)}
       </Row>
       <Row className="justify-content-center">
@@ -43,7 +49,7 @@ const LandingSection = () => {
         <Col lg={5} className="mt-5 d-flex align-items-center">
           <Jumbotron/>
         </Col>
-        <Col lg={7} className="mt-5">
+        <Col lg={7} className="mt-5 align-items-center">
           <OurPics/>
         </Col>
       </Layout>
