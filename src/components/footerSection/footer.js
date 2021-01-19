@@ -1,15 +1,18 @@
+// ****** DEFAULT IMPORTS BEGIN ********
 import React from "react"
-import { Container, Col, Row, Carousel, Card } from 'react-bootstrap'
+import { Link } from "gatsby"
+import data from "../../assets/data"
 import styled from "styled-components"
-import  StyledButton  from "./styledButton"
-import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { Container, Col, Row } from "react-bootstrap"
+import { StyledButton, Layout, Navigation, Jumbotron } from "../generalComponents"
+// ******** DEFAULT IMPORTS END ********
 
 const HeavyH2 = styled.h2`
   font-weight: 900;
 `
 
 const Band = styled(Container)`
-  background: #FCF6EE;
+  background: #E2A28D;
 `
 
 

@@ -14,7 +14,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 
-const SortTabs = () => {
+const SortTabs = (props) => {
   const tabsHTML = []
   const numOfTabs = 3
 
@@ -38,10 +38,22 @@ const SortTabs = () => {
       </Tab>
     )
   }
+
+  // this.state = {
+  //    // Takes active tab from props if it is defined there
+  //    activeTab: props.activeTab || 1
+  //  };
+  //
+  //  // Bind the handleSelect function already here (not in the render function)
+  //  this.handleSelect = this.handleSelect.bind(this);
+
+
   return (
     <>
       <Tabs defaultActiveKey={data.seminarTopics[0].day.toLowerCase()}
-           id="uncontrolled-tab-example">
+           id="uncontrolled-tab-example"
+           className="myClass"
+      >
            {tabsHTML}
      </Tabs>
     </>
@@ -49,7 +61,7 @@ const SortTabs = () => {
 }
 
 
-const SeminarSection = () => {
+const SeminarSection = (props) => {
   var settings = {
     dots: true,
     infinite: true,
@@ -70,6 +82,7 @@ const SeminarSection = () => {
       />
     )
   }
+
   return (
     <>
       <Layout>

@@ -1,4 +1,12 @@
 const data = {
+  color: {
+    lightShade: "#D37050",
+    darkShade: "#1681a8",
+    hover: {
+      lightShade: "#122D4D",
+      darkShade: "#D37050"
+    }
+  },
   navText : [
     "Home", "About", "Contact"
   ],
@@ -7,23 +15,29 @@ const data = {
     {
       name: "Yasin Ehsan",
       title: "Software Engineer",
-      company: "Capital One, Eno AI",
+      company: "Capital One AI",
       school: "QC '20",
-      image: "yas-circle.png"
+      image: "yas-circle.png",
+      resume: "Topics.pdf",
+      color: "lightShade"
     },
     {
       name: "Rageeb Mahtab",
-      title: "Solutions Acrhitect",
-      company: "Amazon, AWS",
+      title: "Solutions Architect",
+      company: "Amazon AWS",
       school: "Baruch '20",
-      image: "ragu-circle.png"
+      image: "ragu-circle.png",
+      resume: "Topics.pdf",
+      color: "lightShade"
     },
     {
       name: "Helal Chowdhury",
       title: "Software Engineer",
-      company: "Bloomberg, Backend",
+      company: "Bloomberg",
       school: "NYU '21",
-      image: "helal-circle.png"
+      image: "helal-circle.png",
+      resume: "Topics.pdf",
+      color: "lightShade"
     }
   ],
   timeline : [

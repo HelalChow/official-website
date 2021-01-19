@@ -22,6 +22,8 @@ const OurPics = () => {
         company={member.company}
         school={member.school}
         image={member.image}
+        resume={member.resume}
+        color={member.color}
       />
     )
   }

@@ -1,6 +1,7 @@
 import React from "react"
 import { Container, Col, Row, Card, Image } from 'react-bootstrap'
 import styled from "styled-components"
+import data from "../../assets/data"
 
 const CustomCard = styled(Card)`
   transition: transform 1s ease;
@@ -12,6 +13,10 @@ const CustomCard = styled(Card)`
 `
 const BetterImage = styled(Card.Img)`
   max-width: 8rem;
+`
+
+const ColoredAnchor = styled.a`
+  color: ${props => data.color[props.color]};
 `
 
 const FaceCard = (props) => {
@@ -28,8 +33,13 @@ const FaceCard = (props) => {
                 <Card.Title className="m-0">{props.name}</Card.Title>
                 <Card.Text className="mt-2">
                   {props.title}
-                  <br/>{props.company}
-                  <br/>{props.school}
+                  <br/>{props.company}, {props.school}
+                  <br/>
+                  <ColoredAnchor
+                    color={props.color}
+                    href={require(`../../assets/${props.resume}`)}
+                    >Resume
+                  </ColoredAnchor>
                 </Card.Text>
               </Col>
             </Row>
