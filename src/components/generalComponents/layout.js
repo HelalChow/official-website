@@ -6,7 +6,7 @@ import PropTypes from "prop-types"
 const Layout = ({ children }) => {
   return (
     <>
-      <Container>
+      <Container className="mb-5">
         <Row>
           {children}
         </Row>

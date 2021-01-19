@@ -9,7 +9,6 @@ import { Layout, Navigation, Jumbotron } from "../generalComponents"
 import FaceCard from "./faceCard"
 
 
-
 const OurPics = () => {
   const cardsHTML = []
   const numOfCards = 3

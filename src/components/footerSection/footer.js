@@ -18,7 +18,7 @@ const Footer = (props) => {
   return (
     <>
       <Container className="mt-5">
-        <Row className="mt-5 pt-5">
+        {/*<Row className="mt-5 pt-5">
           <Col lg={6} >
               <HeavyH2>Ready to order?</HeavyH2>
               <HeavyH2>Start browsing our Services</HeavyH2>
@@ -28,9 +28,9 @@ const Footer = (props) => {
             <AnchorLink to="/contact"><StyledButton color="red" light text="Contact Us"/></AnchorLink>
 
           </Col>
-        </Row>
+        </Row>*/}
 
-        <Row className="my-5 pt-5">
+        {/*<Row className="my-5 pt-5">
           <Col lg={6} >
             <p class="font-weight-bold">Golden Blocks Construction</p>
             <p>
@@ -57,10 +57,7 @@ const Footer = (props) => {
               <br/>Email: gbbl@gmail.com
             </p>
           </Col>
-
-
-
-        </Row>
+        </Row>*/}
       </Container>
 
       <Band fluid>
