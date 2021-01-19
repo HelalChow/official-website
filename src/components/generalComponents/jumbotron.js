@@ -11,27 +11,31 @@ const BiggerH1 = styled.h1`
   line-height: 100%;
 `
 
-const Jumbotron = () => (
-  <>
-    <Row>
-      <Col lg={12}>
-        <div className="">
-          <BiggerH1>
-            Be the most effective in your job serch
-          </BiggerH1>
-          <div className="pt-3">
-          We understand the value of quality end products that will last generations and will be loved by all members of the community alike.
+const Jumbotron = () => {
+  return (
+    <>
+      <Row>
+        <Col lg={12}>
+          <div className="">
+            <BiggerH1>
+              Let us help you land your dream job
+            </BiggerH1>
+            <div className="pt-3">
+            We understand the value of quality end products that will last generations and will be loved by all members of the community alike.
+            </div>
           </div>
-        </div>
-    </Col>
-      <Col lg={12}>
-        <div className="pt-3">
-          <a href="../../assets/Topics.pdf" download><StyledButton color="red" text="Topics Covered"/></a>
-          <a href="https://www.google.com"><StyledButton color="red" light text="Eventbrite Tickets"/></a>
-        </div>
       </Col>
-    </Row>
-  </>
-)
+        <Col lg={12}>
+          <div className="pt-3">
+            <a href={require(`../../assets/Topics.pdf`)} ><StyledButton color="red" text="Topics Covered"/></a>
+            <a href="https://www.google.com"><StyledButton color="red" light text="Eventbrite Tickets"/></a>
+          </div>
+        </Col>
+      </Row>
+    </>
+  )
+}
+
+
 
 export default Jumbotron
