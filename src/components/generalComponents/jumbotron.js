@@ -11,7 +11,7 @@ const BiggerH1 = styled.h1`
   line-height: 100%;
 `
 
-const Jumbotron = () => {
+const Jumbotron = (props) => {
   return (
     <>
       <Row>
@@ -27,8 +27,8 @@ const Jumbotron = () => {
       </Col>
         <Col lg={12}>
           <div className="pt-3">
-            <a href={require(`../../assets/Topics.pdf`)} ><StyledButton color="red" text="Topics Covered"/></a>
-            <a href="https://www.google.com"><StyledButton color="red" light text="Eventbrite Tickets"/></a>
+            <a href={require(`../../assets/Topics.pdf`)} ><StyledButton color="red" text="Topics"/></a>
+            <a href="https://www.google.com"><StyledButton color="red" light text="Eventbrite"/></a>
           </div>
         </Col>
       </Row>

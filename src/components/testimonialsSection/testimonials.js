@@ -48,7 +48,7 @@ const TestimonialsSection = () => {
 
 
   const slideHTML = []
-  const numOfSlides = 3
+  const numOfSlides = 6
 
   for (var slideIndex = 0; slideIndex < numOfSlides; slideIndex++){
     slideHTML.push(
@@ -62,7 +62,10 @@ const TestimonialsSection = () => {
         <Col lg={5} className="mt-5 d-flex align-items-center">
           <Jumbotron/>
         </Col>
-        <Col lg={7} className="mt-5">
+        <Col lg={1} className="mt-5 d-flex align-items-center">
+
+        </Col>
+        <Col lg={6} className="mt-5">
           {/*<OurPics/>*/}
           <Slider {...settings}>
             {slideHTML}

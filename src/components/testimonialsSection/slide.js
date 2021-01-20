@@ -22,7 +22,7 @@ const SubHeading = styled.p`
 
 const OurPics = () => {
   const cardsHTML = []
-  const numOfCards = 2
+  const numOfCards = 3
 
   for(var cardIndex = 0; cardIndex < numOfCards; cardIndex++){
     cardsHTML.push(

@@ -3,8 +3,8 @@ const data = {
     lightShade: "#D37050",
     darkShade: "#1681a8",
     hover: {
-      lightShade: "#122D4D",
-      darkShade: "#D37050"
+      lightShade: "#E2A28D",
+      darkShade: "#1CA6D9"
     }
   },
   navText : [
@@ -13,7 +13,25 @@ const data = {
     "FAQs",
     "Contact"
   ],
-  logoText : "Headstart",
+  logoText : "Headstarter",
+  jumbotron : {
+    landing: {
+      bigText: "",
+      detials: ""
+    },
+    timeline: {
+      bigText: "",
+      detials: ""
+    },
+    seminar: {
+      bigText: "",
+      detials: ""
+    },
+    testimonial: {
+      bigText: "",
+      detials: ""
+    }
+  },
   teamMembers: [
     {
       name: "Yasin Ehsan",
@@ -180,7 +198,80 @@ const data = {
       detail2:"",
       message: "I can confidently say Yasin has been, and still is my biggest mentor at Queens College. Without him, I do not think I would be graduating in 4 years because he introduced me to the Student Ambassadors Program, which offered early registration for classes. This ultimately lead me to be able to comfortably enroll in classes with the best professors. Yasin also opened my eyes up to the “real world” of Computer Science. He made me realize that the industry is incredibly competitive and I will need more than a degree to get a job. He advised me to join Hackathons, work on personal projects, and apply for internships. I could not have made it this far in my journey without the mentorship of Yasin."
     },
-  ]
+  ],
+  faqs: {
+    numOfCols : 5,
+    numOfRows : 5,
+    tableHeading : [
+      "Never worked",
+      "Non-software expreince",
+      "Small internship",
+      "Strong internship",
+      "Full-time offer"
+    ],
+    questions: [
+      {
+        q: "I am not traditional cs major or I have not decided major",
+        a: "we have programm fro you"
+      },
+      {
+        q: "I don't think I am prepared for interviews yet",
+        a: "I am a senoir/alum I need a job"
+      },
+      {
+        q: "I know the leetcode grind",
+        a: "we have programm fro you"
+      }
+    ]
+  },
+  footer: {
+    quickLinks: [
+      {
+        text: "Home",
+        link: "/"
+      },
+      {
+        text: "About",
+        link: "/about"
+      },
+      {
+        text: "FAQs",
+        link: "/faq"
+      },
+      {
+        text: "Contact",
+        link: "/contact"
+      }
+    ],
+    websiteStack: [
+      {
+        text: "Github Repo",
+        link: "https://github.com/team-headstart/official-website"
+      },
+      {
+        text: "About",
+        link: "/about"
+      },
+      {
+        text: "About",
+        link: "/about"
+      }
+    ],
+    contact: [
+      {
+        text: "About",
+        link: "/about"
+      },
+      {
+        text: "About",
+        link: "/about"
+      },
+      {
+        text: "About",
+        link: "/about"
+      }
+    ]
+  }
 }
 
 export default data

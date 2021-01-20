@@ -15,7 +15,7 @@ const CustomLink = styled(AnchorLink)`
     boxShadow: none;
     textDecoration: none;
     text-decoration: none !important;
-    color: #E3A04F;
+    color: {data.color.hover.lightShade};
   }
 `
 
@@ -30,7 +30,7 @@ const Navigation = () => {
     navItemsHTML.push(
         <CustomLink
           to= {`${ navLink == "home" ? "/" : "/" + navLink}`}
-          className="mr-3 mt-3"
+          className="mr-4 mt-3"
         >
           {navText}
         </CustomLink>
@@ -42,15 +42,15 @@ const Navigation = () => {
     {/*col 12 starts here*/}
       <Col lg={12} className="">
         <Navbar className="p-0" expand="lg">
-        <Navbar.Brand className="mt-3">
-        <CustomLink to="/">
-          {data.logoText}
-          {/*<img className="m-0" src={require('../assets/headstart3.png')} alt="Chrono Group"/>*/}
-        </CustomLink>
+        <Navbar.Brand className="mt-3 ">
+          <CustomLink to="/">
+            {data.logoText}
+            {/*<img className="m-0" src={require('../assets/headstart3.png')} alt="Chrono Group"/>*/}
+          </CustomLink>
         </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav " />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="font-weight-bold mr-auto">
+            <Nav className="font-weight-bold  ml-auto">
               {navItemsHTML}
             </Nav>
           </Navbar.Collapse>
