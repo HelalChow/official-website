@@ -25,10 +25,11 @@ const Navigation = () => {
 
   for (let navIndex = 0; navIndex < numOfSections; navIndex++){
     const navText = data.navText[navIndex]
+    const navLink = navText.toLowerCase()
     {/*to= {`/${navText}`}*/}
     navItemsHTML.push(
         <CustomLink
-          to= {`/`}
+          to= {`${ navLink == "home" ? "/" : "/" + navLink}`}
           className="mr-3 mt-3"
         >
           {navText}
@@ -42,7 +43,7 @@ const Navigation = () => {
       <Col lg={12} className="">
         <Navbar className="p-0" expand="lg">
         <Navbar.Brand className="mt-3">
-        <CustomLink to="/#home">
+        <CustomLink to="/">
           {data.logoText}
           {/*<img className="m-0" src={require('../assets/headstart3.png')} alt="Chrono Group"/>*/}
         </CustomLink>

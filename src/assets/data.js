@@ -8,7 +8,10 @@ const data = {
     }
   },
   navText : [
-    "Home", "About", "Contact"
+    "Home",
+    "About",
+    "FAQs",
+    "Contact"
   ],
   logoText : "Headstart",
   teamMembers: [
