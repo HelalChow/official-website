@@ -4,6 +4,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import  StyledButton  from "./styledButton"
 import { Container, Col, Row, Nav, Navbar, Button } from "react-bootstrap"
 import { Link } from "gatsby"
+import data from "../../assets/data"
 
 const BiggerH1 = styled.h1`
   font-size: 4rem;
@@ -12,16 +13,17 @@ const BiggerH1 = styled.h1`
 `
 
 const Jumbotron = (props) => {
+  console.log("boom", props.section);
   return (
     <>
       <Row>
         <Col lg={12}>
           <div className="">
             <BiggerH1>
-              Let us help you land your dream job
+              {data.jumbotron[props.section].bigText}
             </BiggerH1>
             <div className="pt-3">
-            We understand the value of quality end products that will last generations and will be loved by all members of the community alike.
+              {data.jumbotron[props.section].descrip}
             </div>
           </div>
       </Col>

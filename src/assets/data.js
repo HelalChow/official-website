@@ -16,20 +16,20 @@ const data = {
   logoText : "Headstarter",
   jumbotron : {
     landing: {
-      bigText: "",
-      detials: ""
+      bigText: "Let us help your resume stand-out ",
+      descrip: "We want to share everything we learned from the mystifying software egineerng job process from our own struggles in applying from non-target schools."
     },
     timeline: {
-      bigText: "",
-      detials: ""
+      bigText: "vvv",
+      descrip: "d"
     },
     seminar: {
       bigText: "",
-      detials: ""
+      descrip: ""
     },
     testimonial: {
       bigText: "",
-      detials: ""
+      descrip: ""
     }
   },
   teamMembers: [

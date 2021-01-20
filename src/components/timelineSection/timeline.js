@@ -51,7 +51,7 @@ const TimelineSection = () => {
 
 
         <Col lg={5} className="mt-5 d-flex align-items-center">
-          <Jumbotron/>
+          <Jumbotron section={"timeline"}/>
         </Col>
         <Col lg={7} className="mt-5">
           <Chrono

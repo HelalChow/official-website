@@ -60,7 +60,7 @@ const TestimonialsSection = () => {
     <>
       <Layout>
         <Col lg={5} className="mt-5 d-flex align-items-center">
-          <Jumbotron/>
+          <Jumbotron section={"testimonial"}/>
         </Col>
         <Col lg={1} className="mt-5 d-flex align-items-center">
 

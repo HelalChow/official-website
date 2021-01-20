@@ -48,7 +48,7 @@ const LandingSection = () => {
       <Layout>
         <Navigation/>
         <Col lg={5} className="mt-5 d-flex align-items-center">
-          <Jumbotron/>
+          <Jumbotron section={"landing"}/>
         </Col>
         <Col lg={7} className="mt-5 align-items-center">
           <OurPics/>

@@ -87,10 +87,10 @@ const SeminarSection = (props) => {
     <>
       <Layout>
         <Col lg={5} className="mt-5 d-flex align-items-center">
-          <Jumbotron/>
+          <Jumbotron section={"seminar"}/>
         </Col>
         <Col lg={1} className="mt-5 d-flex align-items-center">
-          
+
         </Col>
         <Col lg={6} className="mt-5">
           {/*<Slider {...settings}>
