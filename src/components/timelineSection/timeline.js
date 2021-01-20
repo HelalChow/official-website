@@ -8,6 +8,13 @@ import { Layout, Navigation, Jumbotron } from "../generalComponents"
 // ******** DEFAULT IMPORTS END ********
 import { Chrono } from "react-chrono";
 
+const WavyImg = styled.img`
+   position: absolute;
+   margin:auto;
+   left: auto;
+    top: auto;
+    z-index: -1
+`
 
 const TimelineSection = () => {
 
@@ -76,6 +83,7 @@ const TimelineSection = () => {
        </div>
           </Chrono>
         </Col>
+        {/*<WavyImg src={require('./blob.svg')}/>*/}
       </Layout>
     </>
   )

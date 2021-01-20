@@ -7,7 +7,6 @@ import { Col, Row } from "react-bootstrap"
 import { Layout, Navigation, Jumbotron } from "../generalComponents"
 // ******** DEFAULT IMPORTS END ********
 import TestimonialCard from "./testimonialCard.js"
-import Slide from "./slide"
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -52,7 +51,7 @@ const TestimonialsSection = () => {
 
   for (var slideIndex = 0; slideIndex < numOfSlides; slideIndex++){
     slideHTML.push(
-      <Slide
+      <TestimonialCard
       />
     )
   }
@@ -62,10 +61,7 @@ const TestimonialsSection = () => {
         <Col lg={5} className="mt-5 d-flex align-items-center">
           <Jumbotron section={"testimonial"}/>
         </Col>
-        <Col lg={1} className="mt-5 d-flex align-items-center">
-
-        </Col>
-        <Col lg={6} className="mt-5">
+        <Col lg={7} className="mt-5">
           {/*<OurPics/>*/}
           <Slider {...settings}>
             {slideHTML}

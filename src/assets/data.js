@@ -20,16 +20,16 @@ const data = {
       descrip: "We want to share everything we learned from the mystifying software egineerng job process from our own struggles in applying from non-target schools."
     },
     timeline: {
-      bigText: "vvv",
-      descrip: "d"
+      bigText: "Being at the right time at right place",
+      descrip: "To land that desired six-fig job, work backwards to how many semesters you have left and how you can build up your experiences from initial projects to startups to bigger company."
     },
     seminar: {
-      bigText: "",
-      descrip: ""
+      bigText: "3 days of tips and tricks in job process",
+      descrip: "We’ve selected topics to breakdown the job process at each step, 3 complete projects to boost your resume, and a space to form small groups for future hackathon teams + share job related conversations."
     },
     testimonial: {
-      bigText: "",
-      descrip: ""
+      bigText: "Hear from those whom we’ve helped",
+      descrip: "We’ve directed and assisted several our friends and peers though viluntury workshops and phone calls. We’re proud to say we’ve help 20+ land offers from Capital One (12), Amazon (3), Others (8). "
     }
   },
   teamMembers: [
@@ -193,9 +193,17 @@ const data = {
   ],
   testimonials : [
     {
-      name: "",
-      detail1: "",
+      name: "Taj",
+      detail1: "QC Senoir",
       detail2:"",
+      pic: "taj",
+      message: "Ever since I met Yasin at HackNYU in February 2019, his mentorship has been an invaluable resource, providing me and others in his “Zuck” mentorship group with insights into the tech industry. His influence spans multiple fronts from creating a web portfolio, resume, and LinkedIn profile to preparing me for Capital One Summit interviews that would lead to my first internship. Through the time I’ve known Yasin, he has shared advice for a career in software engineering through our collaboration on multiple hackathon projects where I learned about the technical aspects and practices in real world applications."
+    },
+    {
+      name: "Taj",
+      detail1: "QC Senoir",
+      detail2:"",
+      image: "aa.pk",
       message: "I can confidently say Yasin has been, and still is my biggest mentor at Queens College. Without him, I do not think I would be graduating in 4 years because he introduced me to the Student Ambassadors Program, which offered early registration for classes. This ultimately lead me to be able to comfortably enroll in classes with the best professors. Yasin also opened my eyes up to the “real world” of Computer Science. He made me realize that the industry is incredibly competitive and I will need more than a degree to get a job. He advised me to join Hackathons, work on personal projects, and apply for internships. I could not have made it this far in my journey without the mentorship of Yasin."
     },
   ],

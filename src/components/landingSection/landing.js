@@ -3,11 +3,23 @@ import React from "react"
 import { Link } from "gatsby"
 import data from "../../assets/data"
 import styled from "styled-components"
-import { Col, Row } from "react-bootstrap"
+import { Card, Image, Col, Row } from "react-bootstrap"
 import { Layout, Navigation, Jumbotron } from "../generalComponents"
 // ******** DEFAULT IMPORTS END ********
 import FaceCard from "./faceCard"
+{/*import Icon from "../../assets/svg/wave.svg";*/}
 
+const WavyImg = styled.img`
+   {/*position: relative;
+   color: #FFF;
+   text-align: center;
+   overflow: hidden;*/}
+   position: absolute;
+   margin:auto;
+   left: auto;
+    top: auto;
+    z-index: -1
+`
 
 const OurPics = () => {
   const cardsHTML = []
@@ -53,6 +65,7 @@ const LandingSection = () => {
         <Col lg={7} className="mt-5 align-items-center">
           <OurPics/>
         </Col>
+        <WavyImg src={require('./blob.svg')}/>
       </Layout>
     </>
   )

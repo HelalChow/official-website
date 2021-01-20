@@ -4,16 +4,6 @@ import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import data from "../../assets/data"
 
-import {
-  faFilter,
-  faSearch,
-  faLaptop,
-  faTools,
-  faCamera,
-  faUsers,
-  faCircle
-
-} from "@fortawesome/free-solid-svg-icons";
 
 const CustomCard = styled(Card)`
   border: none;
@@ -22,7 +12,6 @@ const CustomCard = styled(Card)`
   &:hover {
     transform: scale(.9);
   }
-  /* max-width:10rem; */
 `
 const BetterImage = styled(Image)`
   max-width: 3rem;
@@ -38,15 +27,9 @@ const TestimonialCard = (props) => {
   return (
     <>
       <Col lg={{ span: 12, offset:0 }}>
-        <CustomCard className="my-4 mx-2 shadow-none ">
+        <CustomCard className="my-4 mx-2 p-4 shadow-none ">
           <Card.Body className="p-0">
             <Row>
-              {/*<Col lg={12} className="mt-3 text-center">
-                <Card.Text>
-                  {"Achieve the highest ROI by reaching audiences most interested in your products and services. 90% of business owners reported that social media targeted ads "}
-                </Card.Text>
-              </Col>*/}
-
               <Col lg={12} className="d-flex align-items-center justify-content-center">
               <span class="">
                 "{data.testimonials[0].message}"

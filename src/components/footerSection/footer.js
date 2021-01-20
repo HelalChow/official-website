@@ -28,6 +28,17 @@ const CustomLink = styled(AnchorLink)`
     color: #D37050;
   }
 `
+
+const WavyImg = styled.img`
+   position: absolute;
+   z-index: -1
+`
+
+const BlockDiv = styled.div`
+  padding-top:5rem;
+
+`
+
 const FooterHelper = (props) => {
 
   return (
@@ -50,6 +61,9 @@ const Footer = (props) => {
 
   return (
     <>
+    {/*<WavyImg src={require('./wave.svg')}/>*/}
+      <BlockDiv>
+
 
       <Band fluid className="mt-5" color={"light"}>
         <Container className="mt-5 pt-3">
@@ -86,6 +100,7 @@ const Footer = (props) => {
           </Col>
         </Row>
       </Band>
+      </BlockDiv>
     </>
   )
 }

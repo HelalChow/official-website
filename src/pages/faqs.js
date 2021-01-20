@@ -11,6 +11,7 @@ const FaqPage = () => {
   return (
     <>
       <FaqSection/>
+      <Footer/>
     </>
   )
 }

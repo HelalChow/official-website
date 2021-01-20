@@ -11,6 +11,7 @@ const AboutPage = () => {
   return (
     <>
       <AboutSection/>
+      <Footer/>
     </>
   )
 }
