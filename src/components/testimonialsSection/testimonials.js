@@ -12,27 +12,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-const OurPics = () => {
-  const cardsHTML = []
-  const numOfCards = 4
-
-  for(var cardIndex = 0; cardIndex < numOfCards; cardIndex++){
-    cardsHTML.push(
-      <TestimonialCard
-      />
-    )
-  }
-
-  return (
-    <>
-      <Row>
-        {cardsHTML}
-      </Row>
-    </>
-  )
-}
-
-
 
 const TestimonialsSection = () => {
   var settings = {
@@ -47,11 +26,18 @@ const TestimonialsSection = () => {
 
 
   const slideHTML = []
-  const numOfSlides = 6
+  const numOfSlides = data.testimonials.length
 
   for (var slideIndex = 0; slideIndex < numOfSlides; slideIndex++){
+    var testimonial = data.testimonials[slideIndex]
+
     slideHTML.push(
       <TestimonialCard
+        name = {testimonial.name}
+        deet1 = {testimonial.detail1}
+        deet2 = {testimonial.detail2}
+        image = {testimonial.pic}
+        message = {testimonial.message}
       />
     )
   }
@@ -62,7 +48,6 @@ const TestimonialsSection = () => {
           <Jumbotron section={"testimonial"}/>
         </Col>
         <Col lg={7} className="mt-5">
-          {/*<OurPics/>*/}
           <Slider {...settings}>
             {slideHTML}
           </Slider>

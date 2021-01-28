@@ -39,7 +39,7 @@ const data = {
       company: "Capital One AI",
       school: "QC '20",
       image: "yas-circle.png",
-      resume: "Topics.pdf",
+      resume: "yasin.pdf",
       color: "lightShade"
     },
     {
@@ -48,7 +48,7 @@ const data = {
       company: "Amazon AWS",
       school: "Baruch '20",
       image: "ragu-circle.png",
-      resume: "Topics.pdf",
+      resume: "yasin.pdf",
       color: "lightShade"
     },
     {
@@ -57,7 +57,7 @@ const data = {
       company: "Bloomberg",
       school: "NYU '21",
       image: "helal-circle.png",
-      resume: "Topics.pdf",
+      resume: "yasin.pdf",
       color: "lightShade"
     }
   ],
@@ -196,14 +196,14 @@ const data = {
       name: "Taj",
       detail1: "QC Senoir",
       detail2:"",
-      pic: "taj",
+      pic: "nyu.jpg",
       message: "Ever since I met Yasin at HackNYU in February 2019, his mentorship has been an invaluable resource, providing me and others in his “Zuck” mentorship group with insights into the tech industry. His influence spans multiple fronts from creating a web portfolio, resume, and LinkedIn profile to preparing me for Capital One Summit interviews that would lead to my first internship. Through the time I’ve known Yasin, he has shared advice for a career in software engineering through our collaboration on multiple hackathon projects where I learned about the technical aspects and practices in real world applications."
     },
     {
       name: "Taj",
       detail1: "QC Senoir",
       detail2:"",
-      image: "aa.pk",
+      pic: "nyu.jpg",
       message: "I can confidently say Yasin has been, and still is my biggest mentor at Queens College. Without him, I do not think I would be graduating in 4 years because he introduced me to the Student Ambassadors Program, which offered early registration for classes. This ultimately lead me to be able to comfortably enroll in classes with the best professors. Yasin also opened my eyes up to the “real world” of Computer Science. He made me realize that the industry is incredibly competitive and I will need more than a degree to get a job. He advised me to join Hackathons, work on personal projects, and apply for internships. I could not have made it this far in my journey without the mentorship of Yasin."
     },
   ],

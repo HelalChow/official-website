@@ -12,6 +12,7 @@ const CustomCard = styled(Card)`
   &:hover {
     transform: scale(.9);
   }
+  background-color: #f8f8ff;
 `
 const BetterImage = styled(Image)`
   max-width: 3rem;
@@ -32,13 +33,13 @@ const TestimonialCard = (props) => {
             <Row>
               <Col lg={12} className="d-flex align-items-center justify-content-center">
               <span class="">
-                "{data.testimonials[0].message}"
+                "{props.message}"
 
               </span>
               </Col>
               <Col lg={12} className=" pt-2 d-flex align-items-center justify-content-center">
-                  <b>- Bibi, Google Intern, QC</b>
-                  <BetterImage className="ml-3" src="https://picsum.photos/171/180" roundedCircle />
+                  <b>- {props.name}</b>
+                  <BetterImage className="ml-3" src={require(`../../assets/testimonials/${props.image}`)} roundedCircle />
               </Col>
             </Row>
           </Card.Body>

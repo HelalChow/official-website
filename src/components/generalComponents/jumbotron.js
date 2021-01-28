@@ -39,7 +39,7 @@ const Jumbotron = (props) => {
       {/*<WavyImg src={require('./blob.svg')}/>*/}
         <Col lg={12}>
           <div className="pt-3">
-            <a href={require(`../../assets/Topics.pdf`)} ><StyledButton color="red" text="Topics"/></a>
+            <a href={require(`../../assets/schedule/Topics.pdf`)} ><StyledButton color="red" text="Topics"/></a>
             <a href="https://www.google.com"><StyledButton color="red" light text="Eventbrite"/></a>
           </div>
         </Col>
