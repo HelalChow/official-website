@@ -13,7 +13,7 @@ const data = {
     "FAQs",
     "Contact"
   ],
-  logoText : "Headstarter",
+  logoText : "The Headstarter",
   jumbotron : {
     landing: {
       bigText: "Let us help your resume stand-out ",
@@ -135,11 +135,11 @@ const data = {
       description: "Landing the interview | Paid tickets",
       topics: [
         {
-          title: "A day in the life of Software Engineer",
+          title: "satA day in the life of Software Engineer",
           detail: "3 reasons why pursing software engineering"
         },
         {
-          title: "Why Software?",
+          title: "satWhy Software?",
           detail: "3 reasons why pursing software engineering"
         },
         {
@@ -253,16 +253,20 @@ const data = {
     ],
     websiteStack: [
       {
-        text: "Github Repo",
+        text: "Github",
         link: "https://github.com/team-headstart/official-website"
       },
       {
-        text: "About",
-        link: "/about"
+        text: "Bootstrap",
+        link: "https://react-bootstrap.github.io/components/alerts"
       },
       {
-        text: "About",
-        link: "/about"
+        text: "Gatsby",
+        link: "https://www.gatsbyjs.com/docs/quick-start/"
+      },
+      {
+        text: "Blob Svg",
+        link: "https://www.blobmaker.app/"
       }
     ],
     contact: [
