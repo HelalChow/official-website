@@ -193,11 +193,46 @@ const data = {
   ],
   testimonials : [
     {
-      name: "Taj",
-      detail1: "QC Senoir",
+      name: "Kevin",
+      detail1: "NYU Junior,",
+      detail2:"Capital One Intern",
+      pic: "nyu.jpg",
+      message: "Ever since I met Yasin at HackNYU in February 2019, his mentorship then and now have been an invaluable resource, providing me and others with insights into the tech industry. His influence spans multiple fronts from his “Zuck” mentorship group focused on creating a web portfolio and crafting a resume & LinkedIn profile to connecting me with early tech programs, such as the Capital One Summit, and preparing me for interviews that would lead to my first internship as a sophomore. Through the time I’ve known Yasin, he has provided me with advice for internships and visions for a career in software engineering. On the tech side, I’ve worked with Yasin on multiple hackathon projects during HackNYU, HackRPI, and CodePath iOS bootcamp where I learned about the technical aspects and practices in real world applications. No doubt, Yasin has been beneficial in my early career efforts of which was landing my first internship this past summer."
+    },
+    {
+      name: "Bibi Hasan",
+      detail1: "QC Junior,",
+      detail2:"Google Intern",
+      pic: "nyu.jpg",
+      message: "As an incoming freshman at QC, Yasin has aided me plenty in navigating through college. The school clubs, extracurriculars and programs he advised us to join has enriched my network as well as my knowledge in computer science. As upper-junior, the guidance given my freshmen year has benefited me throughout my entire college experience and career."
+    },
+    {
+      name: "Farhan",
+      detail1: "NYU Sophomore",
       detail2:"",
       pic: "nyu.jpg",
-      message: "Ever since I met Yasin at HackNYU in February 2019, his mentorship has been an invaluable resource, providing me and others in his “Zuck” mentorship group with insights into the tech industry. His influence spans multiple fronts from creating a web portfolio, resume, and LinkedIn profile to preparing me for Capital One Summit interviews that would lead to my first internship. Through the time I’ve known Yasin, he has shared advice for a career in software engineering through our collaboration on multiple hackathon projects where I learned about the technical aspects and practices in real world applications."
+      message: "Helal is a really helpful mentor. Especially with hackathons, Helal serves as a role model. His advice on hackathons have inspired me to dive deeper into hackathons and even win many of them. I really appreciate the insight that he has given me with regards to computer science and software engineering ever since I met him."
+    },
+    {
+      name: "Shozab Malik",
+      detail1: "NYU Senoir",
+      detail2:"",
+      pic: "nyu.jpg",
+      message: "Helal is one of the best concept explainers I’ve ever encountered. His ability to gauge the knowledge of his student and provide an explanation accordingly is unparalleled. He has helped me immensely throughout my undergraduate career for technical interviews at top companies. Helal personally polished my resume - from which I noticed a significant surge in callbacks from companies. He also taught me most of what I know about technical interviews. One can easily tell that Helal not only has a passion for software development, but also a passion for helping others in his field."
+    },
+    {
+      name: "Samantha",
+      detail1: "Baruch Junior,",
+      detail2:"AWS Solutions Architect",
+      pic: "nyu.jpg",
+      message: "I had an interview scheduled last-minute for a position that I was not super familiar with. I reached out to Rageeb because I saw that he was working full-time in the position I was interviewing for. He replied promptly agreeing to a phone call, and during that phone call he dove into the technical and behavioral aspects of the interview that I should be prepared for, and it was his insight and advice that I believe really helped me be best prepared for the interview. I actually got the position at my dream company! He is super knowledgeable and always willing to help."
+    },
+    {
+      name: "Farid",
+      detail1: "Baruch Grad",
+      detail2:"",
+      pic: "nyu.jpg",
+      message: "Rageeb is one of the smartest people I’ve ever met in the tech field. He’s the one who’s willingly helping people who are interested in the technology. Whenever I needed any support or suggestions for software engineering or AWS, he was more than happy to help. I was very fascinated by his humbleness and generosity. Which has encouraged me to get more of his guidance. I know Rageeb before he even started working with J.P Morgan, as of now he’s working with Amazon. Despite having a lot of achievements, he’s still the same humble and generous person as I met him in 2018. We need more people like Rageeb, who could positively influence other people to become successful."
     },
     {
       name: "Taj",

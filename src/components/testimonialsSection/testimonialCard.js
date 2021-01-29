@@ -38,8 +38,8 @@ const TestimonialCard = (props) => {
               </span>
               </Col>
               <Col lg={12} className=" pt-2 d-flex align-items-center justify-content-center">
-                  <b>- {props.name}</b>
-                  <BetterImage className="ml-3" src={require(`../../assets/testimonials/${props.image}`)} roundedCircle />
+                  <b>- {props.name}, {props.deet1} {props.deet2}</b>
+                  {/*<BetterImage className="ml-3" src={require(`../../assets/testimonials/${props.image}`)} roundedCircle />*/}
               </Col>
             </Row>
           </Card.Body>
