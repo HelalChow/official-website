@@ -16,7 +16,7 @@ const data = {
   logoText : "The Headstarter",
   jumbotron : {
     landing: {
-      bigText: "Let us help your resume stand-out ",
+      bigText: "Complete guide to securing a job",
       descrip: "We want to share everything we learned from the mystifying software egineerng job process from our own struggles in applying from non-target schools."
     },
     timeline: {
@@ -411,16 +411,20 @@ const data = {
     ],
     contact: [
       {
-        text: "About",
-        link: "/about"
+        text: "headstart.nyc@gmail.com",
+        link: "/contact"
       },
       {
-        text: "About",
-        link: "/about"
+        text: "Helal Chowdhury",
+        link: "https://www.linkedin.com/in/helal-chowdhury/"
       },
       {
-        text: "About",
-        link: "/about"
+        text: "Yasin Ehsan",
+        link: "https://www.linkedin.com/in/yasinehsan/"
+      },
+      {
+        text: "Rageeb Mahtab",
+        link: "https://www.linkedin.com/in/rageebmahtab/"
       }
     ]
   }
