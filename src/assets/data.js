@@ -244,7 +244,18 @@ const data = {
   ],
   aboutUs: {
     slideShow: [
-
+      {
+        path: "estee.jpg",
+        title: "1st palce estee"
+      },
+      {
+        path: "cornell.jpg",
+        title: "1st palce estee"
+      },
+      {
+        path: "nyu.jpg",
+        title: "1st palce estee"
+      }
     ],
     threeThings: [
       {
@@ -337,7 +348,7 @@ const data = {
     ],
     byType: [
       {
-        heading: "Feeling Based",
+        heading: "Situation Based",
         questions: [
           {
             q: "I am not a CS major",

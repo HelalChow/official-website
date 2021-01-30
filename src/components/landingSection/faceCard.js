@@ -37,7 +37,7 @@ const FaceCard = (props) => {
                   <br/>
                   <ColoredAnchor
                     color={props.color}
-                    href={require(`../../assets/resume/${props.resume}`)}
+                    href={require(`../../assets/team/resume/${props.resume}`)}
                     >View Resume
                   </ColoredAnchor>
                 </Card.Text>

@@ -18,6 +18,20 @@ const BiggerH1 = styled.h1`
   line-height: 100%;
 `
 
+const BiggerH3 = styled.h3`
+  /* color: black; */
+  text-shadow: 0 1px 0 black;
+`
+
+const ShadedImg = styled.img`
+  /* opacity: .5; */
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+`
+
 const ThreeThings = () => {
   const cardsHTML = []
   const numOfCards = data.aboutUs.threeThings.length
@@ -26,7 +40,7 @@ const ThreeThings = () => {
     var question = data.aboutUs.threeThings[cardIndex]
     cardsHTML.push(
       <Col lg={12} className="mb-3">
-        <h1>{question.title}</h1>
+        <h3>{question.title}</h3>
         <p>{question.description}</p>
       </Col>
     )
@@ -41,34 +55,23 @@ const ThreeThings = () => {
 }
 
 const ImageSlides = () => {
-  var settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 6000, // speed in mili-seconds
-    fade: true
-  }
-
-
-  const slideHTML = []
-  const numOfSlides = 4
-
-  for (var slideIndex = 0; slideIndex < numOfSlides; slideIndex++){
-    slideHTML.push(
-      <ImageCard
-      />
-    )
-  }
-
   return (
     <>
-      <Row>
-      <Slider {...settings}>
-        {slideHTML}
-      </Slider>
-      </Row>
+      <Carousel>
+        {data.aboutUs.slideShow.map(image =>
+          <Carousel.Item interval={1000}>
+            <ShadedImg
+              className="d-block w-100"
+              src={require(`../../assets/team/group/${image.path}`)}
+              alt={image.title}
+            />
+            <Carousel.Caption>
+              <BiggerH3>{image.title}</BiggerH3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        )}
+      </Carousel>
     </>
   )
 }
@@ -85,31 +88,7 @@ const AboutSection = () => {
           </div>
         </Col>
         <Col lg={8} className="mt-5 ">
-          {/*<ImageSlides/>*/}
-        <Carousel>
-          <Carousel.Item interval={10000}>
-            <img
-              className="d-block w-100"
-              src={require("../../assets/nyu.jpg")}
-              alt="First slide helal"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item interval={10000}>
-            <img
-              className="d-block w-100"
-              src={require("../../assets/estee.jpg")}
-              alt="First slide helal"
-            />
-            <Carousel.Caption>
-              {/*<h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>*/}
-            </Carousel.Caption>
-          </Carousel.Item>
-          </Carousel>
+          <ImageSlides/>
         </Col>
         <Col lg={7} className="mt-5 align-items-center">
           <ThreeThings/>

@@ -17,41 +17,6 @@ const WavyImg = styled.img`
 `
 
 const TimelineSection = () => {
-
-  const items = [
-    {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "wdhcdgcjhdjhcg djhgcjhdgjchgjhsdg hjcshghsdchgsd usgjvysgjhkdgshjgsdjhgjdhgjsdg"
-    },
-    {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-
-    },
-    {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-
-    },
-    {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-
-    },
-    {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-
-    },
-
-    ];
-
   return (
     <>
       <Layout>
