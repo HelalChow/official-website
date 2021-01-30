@@ -5,7 +5,7 @@ import Footer from "../components/footerSection/footer"
 import ContactSection from"../components/contact"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import "../css/style.css"
+import "../assets/css/style.css"
 
 const ContactPage = () => {
   return (

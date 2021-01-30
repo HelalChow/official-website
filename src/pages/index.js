@@ -8,7 +8,7 @@ import TestimonialsSection from "../components/testimonialsSection/testimonials"
 import Footer from "../components/footerSection/footer"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import "../css/style.css"
+import "../assets/css/style.css"
 
 const IndexPage = () => {
   return (

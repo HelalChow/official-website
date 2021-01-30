@@ -5,7 +5,7 @@ import Footer from "../components/footerSection/footer"
 import FaqSection from"../components/faq"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import "../css/style.css"
+import "../assets/css/style.css"
 
 const FaqPage = () => {
   return (

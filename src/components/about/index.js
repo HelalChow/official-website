@@ -20,27 +20,21 @@ const BiggerH1 = styled.h1`
 
 const ThreeThings = () => {
   const cardsHTML = []
-  const numOfCards = 2
+  const numOfCards = data.aboutUs.threeThings.length
 
   for(var cardIndex = 0; cardIndex < numOfCards; cardIndex++){
+    var question = data.aboutUs.threeThings[cardIndex]
     cardsHTML.push(
+      <Col lg={12} className="mb-3">
+        <h1>{question.title}</h1>
+        <p>{question.description}</p>
+      </Col>
     )
   }
   return (
     <>
       <Row>
-        <Col lg={12}>
-          <h1>How we met</h1>
-          <p> we all met in high school. We are ateam of boomn boom boom boom</p>
-        </Col>
-        <Col lg={12} className="mt-5">
-          <h1>How we grew</h1>
-          <p> we all met in high school. We are ateam of boomn boom boom boom</p>
-        </Col>
-        <Col lg={12} className="mt-5">
-          <h1>How we decided this</h1>
-          <p> we all met in high school. We are ateam of boomn boom boom boom</p>
-        </Col>
+        {cardsHTML}
       </Row>
     </>
   )
@@ -90,7 +84,7 @@ const AboutSection = () => {
             <BiggerH1 className="catchPhrase">About</BiggerH1>
           </div>
         </Col>
-        <Col lg={5} className="mt-5 d-flex align-items-center">
+        <Col lg={8} className="mt-5 ">
           {/*<ImageSlides/>*/}
         <Carousel>
           <Carousel.Item interval={10000}>
@@ -100,8 +94,8 @@ const AboutSection = () => {
               alt="First slide helal"
             />
             <Carousel.Caption>
-              {/*<h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>*/}
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={10000}>

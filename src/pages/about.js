@@ -5,7 +5,7 @@ import Footer from "../components/footerSection/footer"
 import AboutSection from"../components/about"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import "../css/style.css"
+import "../assets/css/style.css"
 
 const AboutPage = () => {
   return (

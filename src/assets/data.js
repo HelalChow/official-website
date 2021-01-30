@@ -39,7 +39,7 @@ const data = {
       company: "Capital One AI",
       school: "QC '20",
       image: "yas-circle.png",
-      resume: "yasin.pdf",
+      resume: "YasinEhsan.pdf",
       color: "lightShade"
     },
     {
@@ -48,7 +48,7 @@ const data = {
       company: "Amazon AWS",
       school: "Baruch '20",
       image: "ragu-circle.png",
-      resume: "yasin.pdf",
+      resume: "helal.pdf",
       color: "lightShade"
     },
     {
@@ -57,7 +57,7 @@ const data = {
       company: "Bloomberg",
       school: "NYU '21",
       image: "helal-circle.png",
-      resume: "yasin.pdf",
+      resume: "helal.pdf",
       color: "lightShade"
     }
   ],
@@ -242,6 +242,89 @@ const data = {
       message: "I can confidently say Yasin has been, and still is my biggest mentor at Queens College. Without him, I do not think I would be graduating in 4 years because he introduced me to the Student Ambassadors Program, which offered early registration for classes. This ultimately lead me to be able to comfortably enroll in classes with the best professors. Yasin also opened my eyes up to the “real world” of Computer Science. He made me realize that the industry is incredibly competitive and I will need more than a degree to get a job. He advised me to join Hackathons, work on personal projects, and apply for internships. I could not have made it this far in my journey without the mentorship of Yasin."
     },
   ],
+  aboutUs: {
+    slideShow: [
+
+    ],
+    threeThings: [
+      {
+        title: "Where We Were",
+        description: "The three of us attended the same High School at Brooklyn Tech. We all started off at different places with different career paths. Despite attending different Colleges at NYU, Baruch and Queens College, we stayed in touch to share our experiences and encourage one another in our career aspirations. Eventually the three of us realized our goals in Software Engineering aligned and the best way to achieve is together.  "
+      },
+      {
+        title: "Where we were",
+        description: "Together with a couple other members, we formed a team where we competed in Hackathons all around the country. Starting off creating small projects, we slowly gained the skills needed to win consecutive Hackathons while also getting the connections and experience needed for our job search. Soon after, the three of us now just started our full-time jobs at Amazon, Bloomberg and Capital One."
+      },
+      {
+        title: "Where we’ll go",
+        description: "After a long journey since starting College, we realized the knowledge and experience we have now are things we picked up through a lot of hard work and many trial and error. With this serious lack of Colleges taking initiatives to give students practical knowledge of how to secure a position in top companies, we felt it is time to give back the culmination of our experiences to the communities we were once in. The Headstarter seminars will aim to guide students through every step of their college and professional career such that they are equipped with everything they need to land their dream job."
+      }
+    ],
+    hackathons : [
+      {
+        year2020: [
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          },
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          },
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          }
+        ],
+        year2019: [
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          },
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          },
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          }
+        ],
+        year2018: [
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          },
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          },
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          }
+        ]
+      }
+    ]
+  },
   faqs: {
     numOfCols : 5,
     numOfRows : 5,
@@ -252,18 +335,40 @@ const data = {
       "Strong internship",
       "Full-time offer"
     ],
-    questions: [
+    byType: [
       {
-        q: "I am not traditional cs major or I have not decided major",
-        a: "we have programm fro you"
+        heading: "Feeling Based",
+        questions: [
+          {
+            q: "I am not a CS major",
+            a: "we have programm fro you"
+          },
+          {
+            q: "I am not prepared for interviews yet",
+            a: "I am a senoir/alum I need a job"
+          },
+          {
+            q: "I know the leetcode grind",
+            a: "we have programm fro you"
+          }
+        ]
       },
       {
-        q: "I don't think I am prepared for interviews yet",
-        a: "I am a senoir/alum I need a job"
-      },
-      {
-        q: "I know the leetcode grind",
-        a: "we have programm fro you"
+        heading: "Experience Based",
+        questions: [
+          {
+            q: "No Software Work Experience",
+            a: "We will teach you all the steps from the ground up in how to stand out for a Software job even without prior software experience. The seminar itself will guide you through the essential steps in getting prepared, as well as provide you with projects to put on your resume, already giving you an advantage over most candidates!"
+          },
+          {
+            q: "Completed An Internship",
+            a: "How to ensure you utilize your experience to its full potential? The seminar will go over all the steps to obtain a full-time job in top tech companies while being able to balance your school and grades."
+          },
+          {
+            q: "Full-time offer",
+            a: "Already have a full-time offer? The seminar will go over all the steps to keeping your position secure, negotiate salary, and move upward to getting a position at a FAANG company."
+          }
+        ]
       }
     ]
   },
