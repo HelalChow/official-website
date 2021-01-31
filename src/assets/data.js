@@ -273,47 +273,8 @@ const data = {
     ],
     hackathons : [
       {
-        year2020: [
-          {
-            hack: "NYU",
-            place: "1st place",
-            participants: "330",
-            team: "Yasin, Helal"
-          },
-          {
-            hack: "NYU",
-            place: "1st place",
-            participants: "330",
-            team: "Yasin, Helal"
-          },
-          {
-            hack: "NYU",
-            place: "1st place",
-            participants: "330",
-            team: "Yasin, Helal"
-          }
-        ],
-        year2019: [
-          {
-            hack: "NYU",
-            place: "1st place",
-            participants: "330",
-            team: "Yasin, Helal"
-          },
-          {
-            hack: "NYU",
-            place: "1st place",
-            participants: "330",
-            team: "Yasin, Helal"
-          },
-          {
-            hack: "NYU",
-            place: "1st place",
-            participants: "330",
-            team: "Yasin, Helal"
-          }
-        ],
-        year2018: [
+        year: "2020",
+        events: [
           {
             hack: "NYU",
             place: "1st place",
@@ -333,19 +294,56 @@ const data = {
             team: "Yasin, Helal"
           }
         ]
-      }
+      },
+      {
+        year: "2020",
+        events: [
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          },
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          },
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          }
+        ]
+      },
+      {
+        year: "2020",
+        events: [
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          },
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          },
+          {
+            hack: "NYU",
+            place: "1st place",
+            participants: "330",
+            team: "Yasin, Helal"
+          }
+        ]
+      },
     ]
   },
   faqs: {
-    numOfCols : 5,
-    numOfRows : 5,
-    tableHeading : [
-      "Never worked",
-      "Non-software expreince",
-      "Small internship",
-      "Strong internship",
-      "Full-time offer"
-    ],
     byType: [
       {
         heading: "Situation Based",

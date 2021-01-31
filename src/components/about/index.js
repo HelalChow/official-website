@@ -47,7 +47,7 @@ const ThreeThings = () => {
   }
   return (
     <>
-      <Row>
+      <Row className="mt-5">
         {cardsHTML}
       </Row>
     </>
@@ -66,12 +66,39 @@ const ImageSlides = () => {
               alt={image.title}
             />
             <Carousel.Caption>
-              <BiggerH3>{image.title}</BiggerH3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              {/*<BiggerH3>{image.title}</BiggerH3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>*/}
             </Carousel.Caption>
           </Carousel.Item>
         )}
       </Carousel>
+    </>
+  )
+}
+
+const HackWins = () => {
+  const tabsHTML = []
+  const numOfTabs = data.aboutUs.hackathons.length
+
+  for(var tabIndex = 0; tabIndex < numOfTabs; tabIndex++){
+    var hack = data.aboutUs.hackathons[tabIndex]
+    tabsHTML.push(
+      <Col lg={12} className="mb-3">
+        <h3>{hack.year}</h3>
+        {hack.events.map(event =>
+          <>
+            <b>{event.hack}</b>{"\xa0(" + event.team + ")"}<br/>
+            {"\xa0\xa0" + event.place + "\xa0|\xa0" + event.participants}<br/>
+          </>
+        )}
+      </Col>
+    )
+  }
+  return (
+    <>
+      <Row>
+        {tabsHTML}
+      </Row>
     </>
   )
 }
@@ -87,11 +114,12 @@ const AboutSection = () => {
             <BiggerH1 className="catchPhrase">About</BiggerH1>
           </div>
         </Col>
-        <Col lg={8} className="mt-5 ">
-          <ImageSlides/>
+        <Col lg={4} className="mt-5">
+          <HackWins/>
         </Col>
-        <Col lg={7} className="mt-5 align-items-center">
-          <ThreeThings/>
+        <Col lg={8} className="mt-5">
+          <ImageSlides/>
+          <ThreeThings className="mt-5"/>
         </Col>
       </Layout>
     </>
