@@ -420,7 +420,6 @@ const data = {
       },
       {
         text: "Yasin Ehsan",
-        link: "https://www.linkedin.com/in/yasinehsan/"
         link: "https://www.linkedin.com/in/yasinehsan"
       },
       {
