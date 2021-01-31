@@ -416,7 +416,7 @@ const data = {
       },
       {
         text: "Helal Chowdhury",
-        link: "https://www.linkedin.com/in/helal-chowdhury/"
+        link: "https://www.linkedin.com/in/helal-chowdhury"
       },
       {
         text: "Yasin Ehsan",
