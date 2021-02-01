@@ -411,7 +411,7 @@ const data = {
     ],
     contact: [
       {
-        text: "headstart.nyc@gmail.com",
+        text: "contact@theheadstarter.com",
         link: "/contact"
       },
       {
