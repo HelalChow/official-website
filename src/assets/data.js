@@ -102,91 +102,91 @@ const data = {
   seminarTopics : [
     {
       day: "Friday",
-      description: "Planning the interview | Free Tickets",
+      description: "How to Stand Out | Free Tickets",
       topics: [
         {
-          title: "A day in the life of Software Engineer",
-          detail: "3 reasons why pursing software engineering"
+          title: "Introduction",
+          detail: "Understand the Headstarter team, our Story, and our mission for this project",
         },
         {
-          title: "Why Software?",
-          detail: "3 reasons why pursing software engineering"
+          title: "Career in Software Engineering",
+          detail: "Explore why software engineering is so rampant in this era, the timeline of the optimal times to apply and balances classes with preparing for your career"
         },
         {
-          title: "Timeline",
-          detail: "3 reasons why pursing software engineering"
+          title: "Resume Review",
+          detail: "Learn how to form the most optimal resume to land frequent interviews, supplemented by live resume reviews"
         },
         {
-          title: "Finesse School",
-          detail: "3 reasons why pursing software engineering"
+          title: "Project 1 - Image Recognition with AWS",
+          detail: "Follow along and create your own image recognition project using AWS, allowing you to add a new project to your resume as well as AWS as a skill"
         },
         {
-          title: "Resume",
-          detail: "3 reasons why pursing software engineering"
-        },
-        {
-          title: "Take home project 1",
-          detail: "3 reasons why pursing software engineering"
+          title: "Conclusion",
+          detail: "Recap the main points of the session and learn about all the benefits and perks you will recieve by attending the entire weekend"
         }
       ]
     },
     {
       day: "Saturday",
-      description: "Landing the interview | Paid tickets",
+      description: "Landing the Interview | Paid tickets",
       topics: [
         {
-          title: "satA day in the life of Software Engineer",
-          detail: "3 reasons why pursing software engineering"
+          title: "Finessing Your College Career",
+          detail: "Learn how to spend your time at college the most efficiently to prepare you for a career while maintaining GPA and extracurriculars"
         },
         {
-          title: "satWhy Software?",
-          detail: "3 reasons why pursing software engineering"
+          title: "Introduction to Programming",
+          detail: "Learn the basics of essential softwares for web development and how to master Git so you can get started on creating projects of your own"
         },
         {
-          title: "Timeline",
-          detail: "3 reasons why pursing software engineering"
+          title: "Project 2: Build a Payment Software Using Stripe API",
+          detail: "Create your second project using Stripe API, allowing you to transfer money live between bank accounts to use on any app"
         },
         {
-          title: "Finesse School",
-          detail: "3 reasons why pursing software engineering"
+          title: "Personal Branding",
+          detail: "Learn how to brand yourself to stand out to recruiters by mastering the formula for LinkedIn, finding the bets bootcamps and building personal projects"
         },
         {
-          title: "Resume",
-          detail: "3 reasons why pursing software engineering"
+          title: "Project 3 - React Application with Google Cloud",
+          detail: "Develop your third very own project with React using the Google Cloud Platform to master another new skill and add a third project to your resume"
         },
         {
-          title: "Take home project 1",
-          detail: "3 reasons why pursing software engineering"
+          title: "Bonus: How to Win Hackathons",
+          detail: "A complete guide with all the tips and tricks on how to win Hackathons consecutively based on the experiences of three hackathon veterans"
         }
       ]
     },
     {
       day: "Sunday",
-      description: "Acing the interview | Paid Tickets",
+      description: "Acing the Interview | Paid Tickets",
       topics: [
         {
-          title: "A day in the life of Software Engineer",
-          detail: "3 reasons why pursing software engineering"
+          title: "Structure and Stages of Interviews",
+          detail: "Understand the different stages of interviews everthing you need to know about the phone screen, system design, technical interview and behavioral"
         },
         {
-          title: "Why Software?",
-          detail: "3 reasons why pursing software engineering"
+          title: "Technical Interview Prep",
+          detail: "Learn all the tips for techincal interviews and the common data structures and algorithms as well as the most effective courses to practice coding questions"
         },
         {
-          title: "Timeline",
-          detail: "3 reasons why pursing software engineering"
+          title: "Behavioral Intetview Prep",
+          detail: "Master the behavioral interview and how to finesse the final rounds of interviews to secure the job"
         },
         {
-          title: "Finesse School",
-          detail: "3 reasons why pursing software engineering"
+          title: "Guide to Networking",
+          detail: "Master the art of networking with peers and sourcing recruiters while also learning how to effectvely sell yourself"
         },
         {
-          title: "Resume",
-          detail: "3 reasons why pursing software engineering"
+          title: "Create Your Own Portfolio Website",
+          detail: "Present all your epxerience and skills by building your own portfolio website and having it fully published on the web for all see"
         },
         {
-          title: "Take home project 1",
-          detail: "3 reasons why pursing software engineering"
+          title: "Mock Interview",
+          detail: "Observe a live demo of an interview to udnerstand how to practically approach technical problems and learn all the right questions to ask throughout the process"
+        },
+        {
+          title: "Beyond the Offer",
+          detail: "After finally landing a job, learn how to make the most out of this opportunity and negotiate for highest salary and stand out in your position to get promoted"
         }
       ]
     }
