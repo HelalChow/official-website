@@ -415,15 +415,15 @@ const data = {
         link: "/contact"
       },
       {
-        text: "Helal Chowdhury",
+        text: "Helal's LinkedIn",
         link: "https://www.linkedin.com/in/helal-chowdhury"
       },
       {
-        text: "Yasin Ehsan",
-        link: "https://www.linkedin.com/in/yasinehsan"
+        text: "Yasin's LinkedIn",
+        link: "https://www.linkedin.com/in/yasinehsan/"
       },
       {
-        text: "Rageeb Mahtab",
+        text: "Rageeb's LinkedIn",
         link: "https://www.linkedin.com/in/rageebmahtab/"
       }
     ]
